@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://classinsights.at/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://classinsights.at/favicon-16x16.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    aside {
+      padding-top: 20px !important;
+    }
+
+    .app-name {
+      text-align: start !important;
+      padding-left: 1rem;
+    }
+
+    a.app-name-link>img {
+      width: 3rem;
+    }
+  </style>
 </head>
+
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'ClassInsights',
+      logo: 'https://classinsights.at/logo.svg',
+      themeColor: '#2C63F1',
+      topMargin: 30,
+      auto2top: true,
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
+
 </html>
