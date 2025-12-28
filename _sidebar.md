@@ -1,0 +1,4 @@
+- [Home](/ "Willkommen auf der offiziellen ClassInsights Dokumentation!")
+- [Erste Schritte](getting-started.md)
+- [Raumzuweisung](room-assignment.md)
+- [Hilfreiche Tipps](faq.md)
